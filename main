@@ -1,0 +1,38 @@
+# **Data Cleaning and Visualization Project**
+
+Welcome to the **Data Cleaning and Visualization** project! This repository demonstrates how to clean messy data and create insightful visualizations using **Python** with **Pandas** and **Matplotlib**.
+
+---
+
+## **Project Description**
+
+This project focuses on:
+1. Cleaning a dataset by handling missing values, removing duplicates, and ensuring consistent formatting.
+2. Visualizing the cleaned data to uncover trends and patterns.
+3. Saving the cleaned dataset for future use.
+
+---
+
+## **Features**
+
+1. **Data Cleaning**:
+   - **Duplicate Removal**: Eliminates duplicate rows.
+   - **Handling Missing Values**:
+     - Fills missing names with `"Unknown"`.
+     - Replaces missing emails with `"missing@email.com"`.
+     - Assigns `"Unavailable"` to missing phone numbers.
+     - Fills missing ages with the average age (rounded).
+     - Replaces missing countries with `"Unknown"`.
+     - Assigns the mean salary (rounded) to missing salary values.
+     - Sets missing joining dates to `"2025-01-04"`.
+   - **Date Formatting**: Converts joining dates to a standard datetime format.
+
+2. **Data Visualization**:
+   - **Country Distribution**: Bar chart showing the number of employees by country.
+   - **Age Distribution**: Histogram displaying the age distribution of employees.
+   - **Salary Distribution**: Histogram showcasing the salary distribution of employees.
+
+3. **Export Cleaned Data**:
+   - Saves the cleaned dataset as a CSV file (`clean_data.csv`).
+
+
